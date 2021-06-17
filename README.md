@@ -1,2 +1,2 @@
 # ragebasvuru
-discord.gg/serendia
+https://discord.com/invite/serendia
