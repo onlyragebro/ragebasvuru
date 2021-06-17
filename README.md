@@ -1,2 +1,2 @@
 # ragebasvuru
-<a href="https://discord.com/invite/serendia"> </a>
+<a href="https://discord.gg/GQQ9xRGB">Serendia Squad</a>
