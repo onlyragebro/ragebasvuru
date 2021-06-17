@@ -1,0 +1,11 @@
+{
+    "prefix": ".",
+    "token": "TOKENİNİZ",
+    "cezali": "BAŞVURU_CEZALIYA_ATILINCA_VERİLECEK_ROL",
+    "yetkili": "BAŞVURU_ONAYLAYABİLECEK_YETKİLİ_ROL",
+    "onaylandı": "BAŞVURU_ONAYLAYINCA_ATILINCA_VERİLECEK_ROL",
+    "beklemede":"BAŞVURU_BEKLEME_ATILINCA_VERİLECEK_ROL",
+    "basvuruKanal": "BAŞVURU_YAPILACAK_KANAL",
+    "basvuruLog": "BAŞVURU_LOG",
+    "onaylog": "BAŞVURU_ONAYLAYINCA_REDDEDİLİNCE_ATILACAK_LOG"
+}

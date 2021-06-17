@@ -1,0 +1,23 @@
+{
+  "name": "rage-basvuru-botu",
+  "version": "0.0.1",
+  "description": "RAGE tarafından yapılmıştır çalmayınız :)",
+  "main": "rage.js",
+  "scripts": {
+    "start": "node rage.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.3",
+    "quick.db": "^7.1.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "RAGE"
+  ]
+}
