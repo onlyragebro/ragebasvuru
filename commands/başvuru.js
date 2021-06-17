@@ -33,38 +33,39 @@ c.awaitMessages(filter, { max: 1,  time: 60000,  errors: ['time']}).then(collect
 let room = client.channels.cache.get(ayar.basvuruLog)
 if(!room) return message.channel.send('<a:60s2:850814454375120906> | **Böyle bir kanal bulamadım**');
 room = collected.first().content;
-//------------------------------------Soru1------------------------------------\\
 let soru1 = collected.first().content;
+//------------------------------------Soru1------------------------------------\\
 collected.first();
-c.send('** 1. Sorunuz**').then(msg => {
+c.send('** 2. Sorunuz**').then(msg => {
 c.awaitMessages(filter, {max: 1, time: 60000, errors: ['time']}).then(collected => {
-//------------------------------------Soru2------------------------------------\\
 let soru2 = collected.first().content
+//------------------------------------Soru2------------------------------------\\
 collected.first()
-c.send('** 1. Sorunuz**').then(msg => {
+c.send('** 3. Sorunuz**').then(msg => {
 c.awaitMessages(filter, { max: 1, time: 60000, errors: ['time']}).then(collected => {
-//------------------------------------Soru3------------------------------------\\
 let soru3 = collected.first().content
+//------------------------------------Soru3------------------------------------\\
 collected.first()
-c.send('** 1. Sorunuz**').then(msg => {
+c.send('** 4. Sorunuz**').then(msg => {
 c.awaitMessages(filter, { max: 1, time: 60000, errors: ['time']}).then(collected => {
-//------------------------------------Soru4------------------------------------\\
 let soru4 = collected.first().content
+//------------------------------------Soru4------------------------------------\\
 collected.first()
-c.send('** 1. Sorunuz**').then(msg => {
+c.send('** 5. Sorunuz**').then(msg => {
 c.awaitMessages(filter, { max: 1, time: 60000, errors: ['time']}).then(collected => {
-//------------------------------------Soru5------------------------------------\\
 let soru5 = collected.first().content
+//------------------------------------Soru5------------------------------------\\
 collected.first()
-c.send('** 1. Sorunuz**').then(msg => {
+c.send('** 6.Sorunuz**').then(msg => {
 c.awaitMessages(filter, { max: 1, time: 60000, errors: ['time']}).then(collected => {
-//------------------------------------Soru6------------------------------------\\
 let soru6 = collected.first().content
+//------------------------------------Soru6------------------------------------\\
 collected.first()
-c.send('** 1. Sorunuz**').then(msg => {
+c.send('** 7. Sorunuz**').then(msg => {
 c.awaitMessages(filter, { max: 1, time: 60000, errors: ['time']}).then(collected => {
+let soru7 = collected.first().content;
 //-----------------------------Başvuru Bitiş Mesajı-----------------------------\\
-  let soru7 = collected.first().content;
+  
   title = collected.first().content;
   collected.first()
   c.send(`**Bizi desteklediğin için teşşekkür ederiz! Başvurun birazdan cevaplanacaktır lütfen bekle... **`)
